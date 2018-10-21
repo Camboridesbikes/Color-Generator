@@ -15,7 +15,7 @@ const changeRand = (data) => {
   color1.value = '#' + data.colors[0].hex;
     color2.value = '#' + data.colors[1].hex;
   body.style.background = `linear-gradient(to right, #${data.colors[0].hex}, #${data.colors[1].hex})`;
-  css.innerHTML = `${data.colors[0].hex} and ${data.colors[1].hex}`;
+  css.innerHTML = `#${data.colors[0].hex} and #${data.colors[1].hex}`;
 };
 
 const randomize = (event) => {
