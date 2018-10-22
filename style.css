@@ -23,6 +23,9 @@ h3{
   text-transform: uppercase;
   letter-spacing: .01em;
 }
+h3.colors{
+  text-transform: none;
+}
 
 input#random{
   border-radius: 8px;
